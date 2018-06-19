@@ -7,7 +7,7 @@
 //
 
 #import "NetworkingManager.h"
-#import "President.h"
+#import "PRPresident.h"
 
 @implementation NetworkingManager
 
@@ -20,10 +20,10 @@
                                                          options:kNilOptions
                                                            error:&error];
 
-    NSMutableArray *presidents = [NSMutableArray new];
+    NSMutableArray<PRPresident *> *presidents = [NSMutableArray new];
 
     for (id item in json) {
-        [presidents addObject:[[President alloc] initWithJson:item]];
+        [presidents addObject:[[PRPresident alloc] initWithJson:item]];
     }
 
     return presidents;

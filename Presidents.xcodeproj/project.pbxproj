@@ -14,7 +14,7 @@
 		E7C7E8FE20D706250001107D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E8FD20D706250001107D /* main.m */; };
 		E7C7E90620D7077C0001107D /* presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = E7C7E90520D7077C0001107D /* presidents.json */; };
 		E7C7E90B20D708070001107D /* NetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E90A20D708070001107D /* NetworkingManager.m */; };
-		E7C7E90F20D7081A0001107D /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E90E20D7081A0001107D /* President.m */; };
+		E7C7E90F20D7081A0001107D /* PRPresident.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C7E90E20D7081A0001107D /* PRPresident.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		E7C7E90520D7077C0001107D /* presidents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = presidents.json; sourceTree = "<group>"; };
 		E7C7E90920D708070001107D /* NetworkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingManager.h; sourceTree = "<group>"; };
 		E7C7E90A20D708070001107D /* NetworkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingManager.m; sourceTree = "<group>"; };
-		E7C7E90D20D7081A0001107D /* President.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
-		E7C7E90E20D7081A0001107D /* President.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		E7C7E90D20D7081A0001107D /* PRPresident.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPresident.h; sourceTree = "<group>"; };
+		E7C7E90E20D7081A0001107D /* PRPresident.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPresident.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +107,8 @@
 		E7C7E90C20D7080E0001107D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E7C7E90D20D7081A0001107D /* President.h */,
-				E7C7E90E20D7081A0001107D /* President.m */,
+				E7C7E90D20D7081A0001107D /* PRPresident.h */,
+				E7C7E90E20D7081A0001107D /* PRPresident.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				E7C7E90B20D708070001107D /* NetworkingManager.m in Sources */,
 				E7C7E8FE20D706250001107D /* main.m in Sources */,
 				E7C7E8F020D706230001107D /* AppDelegate.m in Sources */,
-				E7C7E90F20D7081A0001107D /* President.m in Sources */,
+				E7C7E90F20D7081A0001107D /* PRPresident.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJPFLH48H5;
 				INFOPLIST_FILE = Presidents/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DJPFLH48H5;
 				INFOPLIST_FILE = Presidents/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,5 +1,5 @@
 //
-//  President.h
+//  PRPresident.h
 //  Presidents
 //
 //  Created by Derrick Showers on 6/17/18.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface President : NSObject
+@interface PRPresident : NSObject
 
 @property (nonatomic, nonnull) NSString *name;
 @property (nonatomic, nullable) NSString *party;
